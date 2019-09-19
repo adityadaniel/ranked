@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="mKS-04-Lte">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Onboarding View Controller-->
+        <scene sceneID="qPJ-qv-dDU">
+            <objects>
+                <viewController storyboardIdentifier="OnboardingStoryboard" id="mKS-04-Lte" customClass="OnboardingViewController" customModule="Ranked" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Zzp-ct-X1O">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="dAT-AD-imt">
+                                <rect key="frame" x="50.5" y="223" width="313.5" height="50"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to," textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4m6-ys-kMu">
+                                        <rect key="frame" x="0.0" y="0.0" width="190" height="50"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="34"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ranked" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z8q-s9-ygv">
+                                        <rect key="frame" x="198" y="0.0" width="115.5" height="50"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="34"/>
+                                        <color key="textColor" red="0.71372549019999998" green="0.039215686270000001" blue="0.062745098040000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="3fe-oL-JMU"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="G5Y-3K-8xD">
+                                <rect key="frame" x="40" y="323" width="334" height="250"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="9z9-AH-2ci">
+                                        <rect key="frame" x="0.0" y="0.0" width="334" height="50"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="footstep" translatesAutoresizingMaskIntoConstraints="NO" id="AUs-hT-enA">
+                                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="B2a-jc-tdA"/>
+                                                    <constraint firstAttribute="width" constant="50" id="XBi-08-pGL"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Get overview of how many steps you walk today" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KnL-lY-EaF">
+                                                <rect key="frame" x="62" y="0.0" width="272" height="50"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="0.18823529411764706" green="0.19215686274509802" blue="0.21176470588235294" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="KnL-lY-EaF" secondAttribute="trailing" id="Upw-ZZ-eFS"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="aST-ma-x8h">
+                                        <rect key="frame" x="0.0" y="100" width="334" height="50"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bar" translatesAutoresizingMaskIntoConstraints="NO" id="7E6-IQ-njS">
+                                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="IdE-kO-zDJ"/>
+                                                    <constraint firstAttribute="width" constant="50" id="ZLC-oh-oAs"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Compare your walking steps with your friends" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1YZ-fF-Dsb">
+                                                <rect key="frame" x="62" y="0.0" width="272" height="50"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="0.18823529410000001" green="0.19215686269999999" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="1YZ-fF-Dsb" secondAttribute="trailing" id="gYz-1p-NN4"/>
+                                        </constraints>
+                                        <viewLayoutGuide key="safeArea" id="FmO-u3-FWt"/>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="D9l-W7-7p4">
+                                        <rect key="frame" x="0.0" y="200" width="334" height="50"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pedestrian" translatesAutoresizingMaskIntoConstraints="NO" id="8AE-lB-3rx">
+                                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="50" id="atK-5j-Zlh"/>
+                                                    <constraint firstAttribute="height" constant="50" id="uN0-1D-ehM"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stay motivated and keep moving!" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aBw-B5-R03">
+                                                <rect key="frame" x="62" y="0.0" width="272" height="50"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="0.18823529410000001" green="0.19215686269999999" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="aBw-B5-R03" secondAttribute="trailing" id="fsf-8K-NXl"/>
+                                        </constraints>
+                                        <viewLayoutGuide key="safeArea" id="bJg-w0-uNm"/>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OTM-xv-jkP" customClass="PrimaryButton" customModule="Ranked" customModuleProvider="target">
+                                <rect key="frame" x="20" y="792" width="374" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="r3X-xs-QRa"/>
+                                </constraints>
+                                <state key="normal" title="Let's Start"/>
+                                <connections>
+                                    <action selector="startButtonTapped:" destination="mKS-04-Lte" eventType="touchUpInside" id="fFG-wa-EM9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="G5Y-3K-8xD" firstAttribute="top" secondItem="dAT-AD-imt" secondAttribute="bottom" constant="50" id="1Oc-Wd-tfn"/>
+                            <constraint firstItem="G5Y-3K-8xD" firstAttribute="centerX" secondItem="Zzp-ct-X1O" secondAttribute="centerX" id="HEw-nI-YfF"/>
+                            <constraint firstItem="XeL-vr-jeI" firstAttribute="trailing" secondItem="G5Y-3K-8xD" secondAttribute="trailing" constant="40" id="OZX-Sc-qtA"/>
+                            <constraint firstItem="OTM-xv-jkP" firstAttribute="leading" secondItem="XeL-vr-jeI" secondAttribute="leading" constant="20" id="Whw-AB-R0u"/>
+                            <constraint firstItem="XeL-vr-jeI" firstAttribute="bottom" secondItem="OTM-xv-jkP" secondAttribute="bottom" constant="20" id="Y9J-i0-vNq"/>
+                            <constraint firstItem="G5Y-3K-8xD" firstAttribute="leading" secondItem="XeL-vr-jeI" secondAttribute="leading" constant="40" id="bmE-Dj-Fem"/>
+                            <constraint firstItem="dAT-AD-imt" firstAttribute="centerX" secondItem="Zzp-ct-X1O" secondAttribute="centerX" id="wxd-aZ-5Qw"/>
+                            <constraint firstItem="G5Y-3K-8xD" firstAttribute="centerY" secondItem="Zzp-ct-X1O" secondAttribute="centerY" id="x1W-Ib-5gK"/>
+                            <constraint firstItem="XeL-vr-jeI" firstAttribute="trailing" secondItem="OTM-xv-jkP" secondAttribute="trailing" constant="20" id="zJU-r2-UWi"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="XeL-vr-jeI"/>
+                    </view>
+                    <connections>
+                        <segue destination="tq7-sH-UFR" kind="show" identifier="ShowCreateAccountSegue" id="oZ6-ex-LIy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1I7-EO-vUK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <stackView opaque="NO" contentMode="scaleToFill" spacing="12" id="Wp0-mm-oha">
+                    <rect key="frame" x="0.0" y="0.0" width="374" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="footstep" translatesAutoresizingMaskIntoConstraints="NO" id="C0s-ZJ-syN">
+                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="Hlo-ZU-Fic"/>
+                                <constraint firstAttribute="width" constant="50" id="VlM-t6-jg7"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Get overview of how many steps you walk today" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uc4-rB-5mE">
+                            <rect key="frame" x="62" y="0.0" width="312" height="50"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.18823529410000001" green="0.19215686269999999" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="uc4-rB-5mE" secondAttribute="trailing" id="0mH-7E-Oqa"/>
+                    </constraints>
+                    <viewLayoutGuide key="safeArea" id="CXT-an-bfm"/>
+                </stackView>
+            </objects>
+            <point key="canvasLocation" x="581" y="188"/>
+        </scene>
+        <!--CreateAccount-->
+        <scene sceneID="bSh-iC-RFy">
+            <objects>
+                <viewControllerPlaceholder storyboardName="CreateAccount" id="tq7-sH-UFR" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pI0-pf-YzW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1325" y="67"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bar" width="50" height="50"/>
+        <image name="footstep" width="50" height="53"/>
+        <image name="pedestrian" width="25" height="48"/>
+    </resources>
+</document>

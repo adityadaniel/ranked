@@ -7,21 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		112000BB23331A5800E0CCD4 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 112000BA23331A5800E0CCD4 /* CloudKit.framework */; };
+		112000BD23331B9500E0CCD4 /* Steps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112000BC23331B9500E0CCD4 /* Steps.swift */; };
 		1175539023313B7200EFA8A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1175538F23313B7200EFA8A2 /* AppDelegate.swift */; };
-		1175539223313B7200EFA8A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1175539123313B7200EFA8A2 /* ViewController.swift */; };
+		1175539223313B7200EFA8A2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1175539123313B7200EFA8A2 /* HomeViewController.swift */; };
 		1175539523313B7200EFA8A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1175539323313B7200EFA8A2 /* Main.storyboard */; };
 		1175539723313B7300EFA8A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1175539623313B7300EFA8A2 /* Assets.xcassets */; };
 		1175539A23313B7300EFA8A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1175539823313B7300EFA8A2 /* LaunchScreen.storyboard */; };
+		117553AC23313B9900EFA8A2 /* Rubik-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 117553A223313B9800EFA8A2 /* Rubik-BoldItalic.ttf */; };
+		117553AD23313B9900EFA8A2 /* Rubik-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 117553A323313B9800EFA8A2 /* Rubik-LightItalic.ttf */; };
+		117553AE23313B9900EFA8A2 /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 117553A423313B9800EFA8A2 /* Rubik-Bold.ttf */; };
+		117553AF23313B9900EFA8A2 /* Rubik-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 117553A523313B9800EFA8A2 /* Rubik-BlackItalic.ttf */; };
+		117553B023313B9900EFA8A2 /* Rubik-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 117553A623313B9800EFA8A2 /* Rubik-Light.ttf */; };
+		117553B123313B9900EFA8A2 /* Rubik-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 117553A723313B9800EFA8A2 /* Rubik-Black.ttf */; };
+		117553B223313B9900EFA8A2 /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 117553A823313B9800EFA8A2 /* Rubik-Medium.ttf */; };
+		117553B323313B9900EFA8A2 /* Rubik-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 117553A923313B9800EFA8A2 /* Rubik-MediumItalic.ttf */; };
+		117553B423313B9900EFA8A2 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 117553AA23313B9800EFA8A2 /* Rubik-Regular.ttf */; };
+		117553B523313B9900EFA8A2 /* Rubik-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 117553AB23313B9800EFA8A2 /* Rubik-RegularItalic.ttf */; };
+		117553B723313CD100EFA8A2 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117553B623313CD100EFA8A2 /* Theme.swift */; };
+		117553B923313ED500EFA8A2 /* UIColor+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117553B823313ED500EFA8A2 /* UIColor+Helpers.swift */; };
+		117553C123314F4500EFA8A2 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117553C023314F4500EFA8A2 /* PrimaryButton.swift */; };
+		117553C72331CF7800EFA8A2 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 117553C62331CF7800EFA8A2 /* HealthKit.framework */; };
+		11BA28BF23328ECA00ED1721 /* StepsDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BA28BE23328ECA00ED1721 /* StepsDataStore.swift */; };
+		11D56F3C233331D600D4257D /* RankController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D56F3B233331D600D4257D /* RankController.swift */; };
+		11D56F412333439B00D4257D /* RankCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D56F3F2333439B00D4257D /* RankCell.swift */; };
+		11E1EB842331F11400BAB8B9 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E1EB832331F11400BAB8B9 /* OnboardingViewController.swift */; };
+		11E1EB862331F13100BAB8B9 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11E1EB852331F13100BAB8B9 /* Onboarding.storyboard */; };
+		11E1EB892331FE8300BAB8B9 /* CreateAccountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E1EB882331FE8300BAB8B9 /* CreateAccountController.swift */; };
+		11E1EB8B2331FE9800BAB8B9 /* CreateAccount.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11E1EB8A2331FE9800BAB8B9 /* CreateAccount.storyboard */; };
+		11E1EB8E23325E0D00BAB8B9 /* AuthorizationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E1EB8D23325E0D00BAB8B9 /* AuthorizationController.swift */; };
+		11E1EB90233260AB00BAB8B9 /* HealthKitSetupHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E1EB8F233260AB00BAB8B9 /* HealthKitSetupHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		112000BA23331A5800E0CCD4 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		112000BC23331B9500E0CCD4 /* Steps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Steps.swift; sourceTree = "<group>"; };
 		1175538C23313B7200EFA8A2 /* Ranked.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ranked.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1175538F23313B7200EFA8A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1175539123313B7200EFA8A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1175539123313B7200EFA8A2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		1175539423313B7200EFA8A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1175539623313B7300EFA8A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1175539923313B7300EFA8A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1175539B23313B7300EFA8A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		117553A223313B9800EFA8A2 /* Rubik-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BoldItalic.ttf"; sourceTree = "<group>"; };
+		117553A323313B9800EFA8A2 /* Rubik-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-LightItalic.ttf"; sourceTree = "<group>"; };
+		117553A423313B9800EFA8A2 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		117553A523313B9800EFA8A2 /* Rubik-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BlackItalic.ttf"; sourceTree = "<group>"; };
+		117553A623313B9800EFA8A2 /* Rubik-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Light.ttf"; sourceTree = "<group>"; };
+		117553A723313B9800EFA8A2 /* Rubik-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Black.ttf"; sourceTree = "<group>"; };
+		117553A823313B9800EFA8A2 /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
+		117553A923313B9800EFA8A2 /* Rubik-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-MediumItalic.ttf"; sourceTree = "<group>"; };
+		117553AA23313B9800EFA8A2 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		117553AB23313B9800EFA8A2 /* Rubik-RegularItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-RegularItalic.ttf"; sourceTree = "<group>"; };
+		117553B623313CD100EFA8A2 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		117553B823313ED500EFA8A2 /* UIColor+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Helpers.swift"; sourceTree = "<group>"; };
+		117553C023314F4500EFA8A2 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		117553C42331CF7800EFA8A2 /* Ranked.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ranked.entitlements; sourceTree = "<group>"; };
+		117553C62331CF7800EFA8A2 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		11BA28BE23328ECA00ED1721 /* StepsDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsDataStore.swift; sourceTree = "<group>"; };
+		11D56F3B233331D600D4257D /* RankController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankController.swift; sourceTree = "<group>"; };
+		11D56F3F2333439B00D4257D /* RankCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankCell.swift; sourceTree = "<group>"; };
+		11E1EB832331F11400BAB8B9 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		11E1EB852331F13100BAB8B9 /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		11E1EB882331FE8300BAB8B9 /* CreateAccountController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountController.swift; sourceTree = "<group>"; };
+		11E1EB8A2331FE9800BAB8B9 /* CreateAccount.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CreateAccount.storyboard; sourceTree = "<group>"; };
+		11E1EB8D23325E0D00BAB8B9 /* AuthorizationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationController.swift; sourceTree = "<group>"; };
+		11E1EB8F233260AB00BAB8B9 /* HealthKitSetupHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitSetupHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +80,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				117553C72331CF7800EFA8A2 /* HealthKit.framework in Frameworks */,
+				112000BB23331A5800E0CCD4 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,7 +92,9 @@
 			isa = PBXGroup;
 			children = (
 				1175538E23313B7200EFA8A2 /* Ranked */,
+				117553A123313B8500EFA8A2 /* Fonts */,
 				1175538D23313B7200EFA8A2 /* Products */,
+				117553C52331CF7800EFA8A2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +109,78 @@
 		1175538E23313B7200EFA8A2 /* Ranked */ = {
 			isa = PBXGroup;
 			children = (
+				11E1EB872331FE5800BAB8B9 /* Create Account */,
+				117553C42331CF7800EFA8A2 /* Ranked.entitlements */,
+				117553BF23314ED300EFA8A2 /* Views */,
 				1175538F23313B7200EFA8A2 /* AppDelegate.swift */,
-				1175539123313B7200EFA8A2 /* ViewController.swift */,
+				1175539123313B7200EFA8A2 /* HomeViewController.swift */,
 				1175539323313B7200EFA8A2 /* Main.storyboard */,
 				1175539623313B7300EFA8A2 /* Assets.xcassets */,
 				1175539823313B7300EFA8A2 /* LaunchScreen.storyboard */,
 				1175539B23313B7300EFA8A2 /* Info.plist */,
+				117553B623313CD100EFA8A2 /* Theme.swift */,
+				117553B823313ED500EFA8A2 /* UIColor+Helpers.swift */,
+				11E1EB8C2332189800BAB8B9 /* Onboarding */,
+				11E1EB8F233260AB00BAB8B9 /* HealthKitSetupHelper.swift */,
+				11BA28BE23328ECA00ED1721 /* StepsDataStore.swift */,
+				112000BC23331B9500E0CCD4 /* Steps.swift */,
+				11D56F3B233331D600D4257D /* RankController.swift */,
+				11D56F3F2333439B00D4257D /* RankCell.swift */,
 			);
 			path = Ranked;
+			sourceTree = "<group>";
+		};
+		117553A123313B8500EFA8A2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				117553A723313B9800EFA8A2 /* Rubik-Black.ttf */,
+				117553A523313B9800EFA8A2 /* Rubik-BlackItalic.ttf */,
+				117553A423313B9800EFA8A2 /* Rubik-Bold.ttf */,
+				117553A223313B9800EFA8A2 /* Rubik-BoldItalic.ttf */,
+				117553A623313B9800EFA8A2 /* Rubik-Light.ttf */,
+				117553A323313B9800EFA8A2 /* Rubik-LightItalic.ttf */,
+				117553A823313B9800EFA8A2 /* Rubik-Medium.ttf */,
+				117553A923313B9800EFA8A2 /* Rubik-MediumItalic.ttf */,
+				117553AA23313B9800EFA8A2 /* Rubik-Regular.ttf */,
+				117553AB23313B9800EFA8A2 /* Rubik-RegularItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		117553BF23314ED300EFA8A2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				117553C023314F4500EFA8A2 /* PrimaryButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		117553C52331CF7800EFA8A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				112000BA23331A5800E0CCD4 /* CloudKit.framework */,
+				117553C62331CF7800EFA8A2 /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		11E1EB872331FE5800BAB8B9 /* Create Account */ = {
+			isa = PBXGroup;
+			children = (
+				11E1EB882331FE8300BAB8B9 /* CreateAccountController.swift */,
+				11E1EB8A2331FE9800BAB8B9 /* CreateAccount.storyboard */,
+				11E1EB8D23325E0D00BAB8B9 /* AuthorizationController.swift */,
+			);
+			path = "Create Account";
+			sourceTree = "<group>";
+		};
+		11E1EB8C2332189800BAB8B9 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				11E1EB852331F13100BAB8B9 /* Onboarding.storyboard */,
+				11E1EB832331F11400BAB8B9 /* OnboardingViewController.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +215,17 @@
 				TargetAttributes = {
 					1175538B23313B7200EFA8A2 = {
 						CreatedOnToolsVersion = 10.3;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -123,8 +253,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				1175539A23313B7300EFA8A2 /* LaunchScreen.storyboard in Resources */,
+				117553B423313B9900EFA8A2 /* Rubik-Regular.ttf in Resources */,
+				11E1EB8B2331FE9800BAB8B9 /* CreateAccount.storyboard in Resources */,
+				117553AE23313B9900EFA8A2 /* Rubik-Bold.ttf in Resources */,
+				117553B523313B9900EFA8A2 /* Rubik-RegularItalic.ttf in Resources */,
+				117553AD23313B9900EFA8A2 /* Rubik-LightItalic.ttf in Resources */,
+				117553AC23313B9900EFA8A2 /* Rubik-BoldItalic.ttf in Resources */,
+				117553AF23313B9900EFA8A2 /* Rubik-BlackItalic.ttf in Resources */,
+				117553B023313B9900EFA8A2 /* Rubik-Light.ttf in Resources */,
+				117553B123313B9900EFA8A2 /* Rubik-Black.ttf in Resources */,
 				1175539723313B7300EFA8A2 /* Assets.xcassets in Resources */,
 				1175539523313B7200EFA8A2 /* Main.storyboard in Resources */,
+				11E1EB862331F13100BAB8B9 /* Onboarding.storyboard in Resources */,
+				117553B323313B9900EFA8A2 /* Rubik-MediumItalic.ttf in Resources */,
+				117553B223313B9900EFA8A2 /* Rubik-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +277,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1175539223313B7200EFA8A2 /* ViewController.swift in Sources */,
+				117553B723313CD100EFA8A2 /* Theme.swift in Sources */,
+				11E1EB90233260AB00BAB8B9 /* HealthKitSetupHelper.swift in Sources */,
+				11E1EB842331F11400BAB8B9 /* OnboardingViewController.swift in Sources */,
+				11D56F412333439B00D4257D /* RankCell.swift in Sources */,
+				11E1EB892331FE8300BAB8B9 /* CreateAccountController.swift in Sources */,
+				1175539223313B7200EFA8A2 /* HomeViewController.swift in Sources */,
+				117553C123314F4500EFA8A2 /* PrimaryButton.swift in Sources */,
+				11E1EB8E23325E0D00BAB8B9 /* AuthorizationController.swift in Sources */,
 				1175539023313B7200EFA8A2 /* AppDelegate.swift in Sources */,
+				112000BD23331B9500E0CCD4 /* Steps.swift in Sources */,
+				117553B923313ED500EFA8A2 /* UIColor+Helpers.swift in Sources */,
+				11BA28BF23328ECA00ED1721 /* StepsDataStore.swift in Sources */,
+				11D56F3C233331D600D4257D /* RankController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +435,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Ranked/Ranked.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9H8AZ8D28D;
 				INFOPLIST_FILE = Ranked/Info.plist;
@@ -300,6 +454,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Ranked/Ranked.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9H8AZ8D28D;
 				INFOPLIST_FILE = Ranked/Info.plist;
