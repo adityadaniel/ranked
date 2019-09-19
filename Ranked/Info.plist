@@ -58,5 +58,7 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<true/>
+	<key>NSFaceIDUsageDescription</key>
+	<string>The app need your permission to use FaceID</string>
 </dict>
 </plist>

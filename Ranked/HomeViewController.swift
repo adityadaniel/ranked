@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import LocalAuthentication
 import CloudKit
 
 class HomeViewController: UIViewController {
@@ -14,6 +15,14 @@ class HomeViewController: UIViewController {
   var isOpenedFirstTime = true
   var stepsRetreived: Int = 0
   var recordId: CKRecord.ID?
+  
+  var context = LAContext()
+  
+  enum AuthenticationState {
+    case loggedin, loggedout
+  }
+  
+  var state = AuthenticationState.loggedout
   
   let container = CKContainer.default()
   
@@ -91,6 +100,24 @@ class HomeViewController: UIViewController {
   
   @IBAction func playButtonTapped(_ sender: PrimaryButton) {
     
+    //FaceID auth
+    context = LAContext()
+    context.localizedCancelTitle = "Enter username and password"
+    
+    var error: NSError?
+    
+    if context.canEvaluatePolicy(.deviceOwnerAuthentication, error: &error) {
+      let reason = "Log in to your account"
+      context.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, localizedReason: reason) { (result, error) in
+        if result {
+          print(result)
+        }
+      }
+    } else {
+      print(error?.localizedDescription)
+    }
+  
+    
     let publicDB = container.publicCloudDatabase
     let record = CKRecord(recordType: "Steps")
     record[.username] = "Aditya"
@@ -113,6 +140,8 @@ class HomeViewController: UIViewController {
     super.viewDidLoad()
     
     title = "Hello, Aditya!"
+    
+    context.canEvaluatePolicy(.deviceOwnerAuthentication, error: nil)
   }
   
   func animate() {
